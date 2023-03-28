@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Installs, configures, and starts the server
-apt-get update
-apt-get install -y nginx
+sudo apt update
+sudo apt install -y nginx
 
 mkdir /etc/nginx/html
 touch /etc/nginx/html/index.html
